@@ -1,0 +1,12 @@
+# Title: Allowlist for streaming services
+# Description: Domains that streaming services need to work. Add as an Allow list in Pi-hole.
+# Format: one domain per line, exact match, no wildcards, no AdBlock syntax
+# Version: 2026.1018
+# Number of entries: 5
+#
+# Paramount+
+tags.tiqcdn.com
+bam.nr-data.net
+cdn.cookielaw.org
+conduit.redfast.com
+js.appboycdn.com

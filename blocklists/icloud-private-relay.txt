@@ -1,0 +1,10 @@
+# Title: Disable iCloud Private Relay on this network
+# Description: Apple turns Private Relay off for a network when these two hosts answer NXDOMAIN.
+#   Add as a Block list in Pi-hole and set the blocking mode to NXDOMAIN (FTLCONF_dns_blocking_mode: NX),
+#   otherwise Pi-hole answers with 0.0.0.0 and Safari shows "can't find server".
+# Format: one domain per line, exact match
+# Version: 2026.1018
+# Number of entries: 2
+#
+mask.icloud.com
+mask-h2.icloud.com
