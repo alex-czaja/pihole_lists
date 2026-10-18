@@ -1,0 +1,8 @@
+# Title: Allowlist for development tools
+# Description: Domains that developer tools need but that blocklists catch. Add as an Allow list in Pi-hole.
+# Format: one domain per line, exact match, no wildcards, no AdBlock syntax
+# Version: 2026.1018
+# Number of entries: 1
+#
+# pip downloads packages from here (blocked by the RPiList malware list)
+files.pythonhosted.org

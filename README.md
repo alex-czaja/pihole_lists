@@ -7,6 +7,7 @@ Own block and allow lists for Pi-hole (v6). One domain per line, `#` starts a co
 | File | Type in Pi-hole | Purpose |
 |---|---|---|
 | `allowlists/streaming.txt` | Allow | Tracking/consent domains that streaming services (Paramount+) need |
+| `allowlists/development.txt` | Allow | Developer tools (pip: files.pythonhosted.org) |
 | `blocklists/icloud-private-relay.txt` | Block | Makes Apple turn Private Relay off on this network (needs blocking mode NXDOMAIN) |
 
 ## Add to Pi-hole
@@ -16,6 +17,7 @@ Web UI: **Lists** (Group Management > Adlists) > **Address** > paste the raw URL
 | List | Raw URL | Type |
 |---|---|---|
 | streaming | `https://raw.githubusercontent.com/alex-czaja/pihole_lists/main/allowlists/streaming.txt` | Allow |
+| development | `https://raw.githubusercontent.com/alex-czaja/pihole_lists/main/allowlists/development.txt` | Allow |
 | icloud-private-relay | `https://raw.githubusercontent.com/alex-czaja/pihole_lists/main/blocklists/icloud-private-relay.txt` | Block |
 
 ## Conventions
